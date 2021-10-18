@@ -2,4 +2,34 @@
 .flair-font {
   font-family: 'Graduate', cursive;
 }
+
+body {
+  background-color: black;
+}
+
+nav {
+  background-color: white;
+}
+
+.navbar-brand {
+  padding-left: 17%;
+}
+
+nav a {
+  color: black !important;
+  font-size: 17px;
+}
+
+nav #navbarSupportedContent {
+  margin-left: 11%;
+}
+
+nav ul {
+  position: absolute;
+  bottom: 0;
+}
+
+nav li {
+  padding-right: 15px;
+}
 /*# sourceMappingURL=styles.css.map */
