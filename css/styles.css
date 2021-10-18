@@ -20,11 +20,27 @@ nav a {
   font-size: 17px;
 }
 
+nav a:hover {
+  border-top: 4px solid black;
+}
+
 nav #navbarSupportedContent {
   margin-left: 11%;
 }
 
-nav ul {
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown .dropdown-menu {
+  left: 50% !important;
+  -webkit-transform: translateX(-50%) !important;
+          transform: translateX(-50%) !important;
+  top: 100% !important;
+}
+
+nav .navbar-nav {
   position: absolute;
   bottom: 0;
 }

@@ -25,13 +25,31 @@ nav {
 }
 
 nav {
+    a:hover {
+        border-top: 4px solid black;
+    }
+}
+
+nav {
     #navbarSupportedContent {
         margin-left: 11%;
     }
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+ //center dropdown boxes
+.dropdown .dropdown-menu {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: 100% !important;
+}
+
 nav {
-    ul {
+    .navbar-nav {
         position: absolute;
         bottom: 0;
     }
