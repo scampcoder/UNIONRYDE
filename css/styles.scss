@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    //background-color: black;
 }
 
 //Navbar
@@ -156,8 +156,47 @@ header {
 
   @media (min-width: 1090px) {
       .bg-img {
-          top: 80px;
+        //top: 80px;
       }
   }
   /* end of banner */
+
+  /* body */
+  #statement {
+      text-align: center;
+      margin: 50px;
+      h2 {
+        letter-spacing: 0.05em;
+        font-size: 55px;
+        font-weight: bolder;
+      }
+      p {
+          font-size: 25px;
+          font-weight: 500;
+          margin-right: 25%;
+          margin-left: 25%;
+      }
+  }
+
+  #faq {
+      .card-header button {
+          color: black;
+          font-family: 'Graduate', cursive;
+          font-weight: bold;
+      }
+      .card-header {
+        background-color: white;
+      }
+      .card {
+        border: 1px solid rgb(0, 0, 0);
+      }
+  }
+
+  .featured-img-container {
+      img {
+          margin: 20px;
+      }
+  }
+  /* end of body */
+
 //**END OF 4-1-1 PAGE**
