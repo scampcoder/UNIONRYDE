@@ -43,6 +43,9 @@ nav {
     margin-top: 0; // remove the gap so it doesn't close
  }
 
+.active {
+    border-top: 4px solid black;
+}
 
 //sets location of nav links when screen is lg
 @media (min-width: 960px) {

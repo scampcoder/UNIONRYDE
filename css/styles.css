@@ -33,6 +33,10 @@ nav #navbarSupportedContent {
   margin-top: 0;
 }
 
+.active {
+  border-top: 4px solid black;
+}
+
 @media (min-width: 960px) {
   nav .navbar-nav {
     position: absolute;
