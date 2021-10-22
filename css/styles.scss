@@ -25,8 +25,10 @@ nav {
 }
 
 nav {
-    a:hover {
-        border-top: 4px solid black;
+    li {
+        a:hover {
+            border-top: 4px solid black;
+        }
     }
 }
 
@@ -41,17 +43,28 @@ nav {
     margin-top: 0; // remove the gap so it doesn't close
  }
 
- //center dropdown boxes
-.dropdown .dropdown-menu {
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    top: 100% !important;
+
+//sets location of nav links when screen is lg
+@media (min-width: 960px) {
+    nav {
+        .navbar-nav {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    //center dropdown boxes
+    .dropdown .dropdown-menu {
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        top: 100% !important;
+        text-align: center;
+    }
 }
 
-nav {
-    .navbar-nav {
-        position: absolute;
-        bottom: 0;
+@media (max-width: 959px) {
+    .dropdown .dropdown-menu {
+        text-align: left;
     }
 }
 
@@ -60,6 +73,7 @@ nav {
         padding-right: 15px;
     }
 }
+
 //End of navbar
 
 //Footer

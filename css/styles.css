@@ -20,7 +20,7 @@ nav a {
   font-size: 17px;
 }
 
-nav a:hover {
+nav li a:hover {
   border-top: 4px solid black;
 }
 
@@ -33,16 +33,24 @@ nav #navbarSupportedContent {
   margin-top: 0;
 }
 
-.dropdown .dropdown-menu {
-  left: 50% !important;
-  -webkit-transform: translateX(-50%) !important;
-          transform: translateX(-50%) !important;
-  top: 100% !important;
+@media (min-width: 960px) {
+  nav .navbar-nav {
+    position: absolute;
+    bottom: 0;
+  }
+  .dropdown .dropdown-menu {
+    left: 50% !important;
+    -webkit-transform: translateX(-50%) !important;
+            transform: translateX(-50%) !important;
+    top: 100% !important;
+    text-align: center;
+  }
 }
 
-nav .navbar-nav {
-  position: absolute;
-  bottom: 0;
+@media (max-width: 959px) {
+  .dropdown .dropdown-menu {
+    text-align: left;
+  }
 }
 
 nav li {
