@@ -178,16 +178,17 @@ header {
       }
   }
 
-  #faq {
-      .card-header button {
+  #faq, #faq-pt2 {
+      .accordion-button {
           color: black;
           font-family: 'Graduate', cursive;
           font-weight: bold;
+          background-color: white;
       }
-      .card-header {
+      .accordion-header {
         background-color: white;
       }
-      .card {
+      .accordion-item {
         border: 1px solid rgb(0, 0, 0);
       }
   }
@@ -196,6 +197,14 @@ header {
       img {
           margin: 20px;
       }
+  }
+
+  #tustin-text-overlay {
+    background-color: white;
+  }
+
+  #faq-pt2 {
+      margin-bottom: 30px;
   }
   /* end of body */
 

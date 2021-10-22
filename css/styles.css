@@ -153,22 +153,31 @@ header {
   margin-left: 25%;
 }
 
-#faq .card-header button {
+#faq .accordion-button, #faq-pt2 .accordion-button {
   color: black;
   font-family: 'Graduate', cursive;
   font-weight: bold;
-}
-
-#faq .card-header {
   background-color: white;
 }
 
-#faq .card {
+#faq .accordion-header, #faq-pt2 .accordion-header {
+  background-color: white;
+}
+
+#faq .accordion-item, #faq-pt2 .accordion-item {
   border: 1px solid black;
 }
 
 .featured-img-container img {
   margin: 20px;
+}
+
+#tustin-text-overlay {
+  background-color: white;
+}
+
+#faq-pt2 {
+  margin-bottom: 30px;
 }
 
 /* end of body */
