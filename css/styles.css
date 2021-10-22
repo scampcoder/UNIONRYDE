@@ -117,12 +117,10 @@ header {
 
 .img-container {
   position: absolute;
-  top: 0;
-  left: 0;
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: .9;
+  top: 100px;
 }
 
 .bg-img {
@@ -140,9 +138,13 @@ header {
   margin: 50px;
 }
 
+#statement .col {
+  padding-top: 100px;
+}
+
 #statement h2 {
   letter-spacing: 0.05em;
-  font-size: 55px;
+  font-size: 65px;
   font-weight: bolder;
 }
 
@@ -151,6 +153,10 @@ header {
   font-weight: 500;
   margin-right: 25%;
   margin-left: 25%;
+}
+
+#faq h3, #faq-pt2 h3 {
+  font-size: 2.3rem;
 }
 
 #faq .accordion-button, #faq-pt2 .accordion-button {
@@ -164,12 +170,19 @@ header {
   background-color: white;
 }
 
+#faq .accordion-header button, #faq-pt2 .accordion-header button {
+  font-size: 19px;
+}
+
 #faq .accordion-item, #faq-pt2 .accordion-item {
   border: 1px solid black;
 }
 
 .featured-img-container img {
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
 }
 
 #tustin-text-overlay {
@@ -178,6 +191,13 @@ header {
 
 #faq-pt2 {
   margin-bottom: 30px;
+}
+
+.accordion-reserve-btns button {
+  background-color: white;
+  border: 4px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* end of body */
