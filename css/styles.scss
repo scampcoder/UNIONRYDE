@@ -80,6 +80,10 @@ nav {
 //End of navbar
 
 //Footer
+footer {
+    background-color: black;
+}
+
 .copyright {
     padding-top: 20px;
     line-height: 10px;
@@ -103,3 +107,57 @@ nav {
     font-size: 20px;
 }
 //End of footer
+
+//**4-1-1 PAGE**
+/* banner */
+header {
+    height: 100vh;
+  }
+
+  .banner-heading {
+      font-size: 90px;
+  }
+  
+  .banner-text {
+    margin-top: 80px;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: white;
+  }
+  
+  .banner-p {
+    margin-top: 30px;
+    font-size: 26px;
+  }
+
+  .my-bold {
+      font-weight: 500;
+  }
+  .img-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+  }
+  
+  .bg-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (min-width: 1090px) {
+      .bg-img {
+          top: 80px;
+      }
+  }
+  /* end of banner */
+//**END OF 4-1-1 PAGE**

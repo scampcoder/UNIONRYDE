@@ -61,6 +61,10 @@ nav li {
   padding-right: 15px;
 }
 
+footer {
+  background-color: black;
+}
+
 .copyright {
   padding-top: 20px;
   line-height: 10px;
@@ -84,4 +88,60 @@ nav li {
 .socials {
   font-size: 20px;
 }
+
+/* banner */
+header {
+  height: 100vh;
+}
+
+.banner-heading {
+  font-size: 90px;
+}
+
+.banner-text {
+  margin-top: 80px;
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  color: white;
+}
+
+.banner-p {
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+.my-bold {
+  font-weight: 500;
+}
+
+.img-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .9;
+}
+
+.bg-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 1090px) {
+  .bg-img {
+    top: 80px;
+  }
+}
+
+/* end of banner */
 /*# sourceMappingURL=styles.css.map */
